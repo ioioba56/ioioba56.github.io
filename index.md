@@ -2,58 +2,122 @@
 layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% seo %}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  <!--[if lt IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <![endif]-->
-  {% include head-custom.html %}
-</head>
-<body>
-  <div class="container">
-    <aside class="sidebar">
-      <ul class="sidebar-list">
-        <li><a href="#header1">Header 1</a></li>
-        <li><a href="#header2">Header 2</a></li>
-        <li><a href="#header3">Header 3</a></li>
-        <li><a href="#header4">Header 4</a></li>
-        <li><a href="#header5">Header 5</a></li>
-        <li><a href="#header6">Header 6</a></li>
-        <!-- Add more links for other sections as needed -->
-      </ul>
-    </aside>
+Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-    <div class="main-content">
-      Text can be **bold**, _italic_, or ~~strikethrough~~.
-      <!-- Rest of your content -->
+[Link to another page](./another-page.html).
 
-      <h1 id="header1">Header 1</h1>
-      <!-- Content for Header 1 -->
+There should be whitespace between paragraphs.
 
-      <h2 id="header2">Header 2</h2>
-      <!-- Content for Header 2 -->
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-      <h3 id="header3">Header 3</h3>
-      <!-- Content for Header 3 -->
+# Header 1
 
-      <h4 id="header4">Header 4</h4>
-      <!-- Content for Header 4 -->
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-      <h5 id="header5">Header 5</h5>
-      <!-- Content for Header 5 -->
+## Header 2
 
-      <h6 id="header6">Header 6</h6>
-      <!-- Content for Header 6 -->
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
 
-      <!-- Your content continues -->
-    </div>
-  </div>
-  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-</body>
-</html>
+### Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+#### Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
+
+
+### Definition lists can be used with HTML syntax.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```
+The final element.
+```
