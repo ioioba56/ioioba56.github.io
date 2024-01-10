@@ -3,38 +3,4 @@
 
 @import "{{ site.theme }}";
 
-/* Custom CSS for Minimal theme */
 
-/* Changing header background color */
- header {
-  background-color: #ffffff; /* Change this color to your preference */
-} 
-
-/* Changing text color in the main content */
-.main-content {
-  color: #333; /* Change text color to your preference */
-}
-
-/* Customizing link styles */
-a {
-  color: #007bff; /* Change link color */
-  text-decoration: none; /* Remove underline */
-}
-
-a:hover {
-  text-decoration: underline; /* Underline on hover */
-}
-
-/* Adjusting font sizes */
-h1 {
-  font-size: 2.5rem; /* Change heading 1 font size */
-}
-
-p {
-  font-size: 1.1rem; /* Change paragraph font size */
-}
-
-/* Customizing footer */
-footer {
-  color: #333; /* Change footer text color */
-}
