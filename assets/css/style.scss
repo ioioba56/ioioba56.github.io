@@ -3,39 +3,48 @@
 
 @import "{{ site.theme }}";
 
-/* Custom CSS for Minimal theme */
+/* Custom CSS for layout */
 
-/* Changing header background color */
+/* Wrapper styles */
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Header styles */
 header {
-  background-color: #f2f2f2; /* Change this color to your preference */
+  background-color: #f2f2f2; /* Background color for header */
+  padding: 20px;
 }
 
-/* Changing text color in the main content */
-.main-content {
-  color: #333; /* Change text color to your preference */
+/* Sidebar styles */
+aside {
+  width: 20%; /* Adjust width as needed */
+  background-color: #f9f9f9; /* Background color for sidebar */
+  padding: 20px;
 }
 
-/* Customizing link styles */
-a {
-  color: #007bff; /* Change link color */
-  text-decoration: none; /* Remove underline */
+/* Main content styles */
+main {
+  width: 80%; /* Adjust width to complement sidebar */
+  padding: 20px;
 }
 
-a:hover {
-  text-decoration: underline; /* Underline on hover */
+/* Style links in the sidebar */
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
-/* Adjusting font sizes */
-h1 {
-  font-size: 2.5rem; /* Change heading 1 font size */
+nav ul li {
+  margin-bottom: 10px;
 }
 
-p {
-  font-size: 1.1rem; /* Change paragraph font size */
+nav ul li a {
+  text-decoration: none;
+  color: #333; /* Link color */
 }
 
-/* Customizing footer */
-footer {
-  background-color: #333; /* Change footer background color */
-  color: #fff; /* Change footer text color */
+nav ul li a:hover {
+  text-decoration: underline;
 }
