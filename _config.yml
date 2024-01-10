@@ -3,6 +3,10 @@
 title: Embodied Interaction
 description: A Documentation of my Learning Journey
 remote_theme: sighingnow/jekyll-gitbook
+toc:
+    enabled: true
+    h_min: 1
+    h_max: 3
 # To use any other Jekyll theme hosted on GitHub, type remote_theme: THEME-NAME, replacing THEME-NAME with the name of the theme as shown in the README of the theme's repository.
 
 
